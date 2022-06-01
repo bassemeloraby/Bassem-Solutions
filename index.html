@@ -12,10 +12,10 @@
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg bg-success" id="navBar">
+    <nav class="navbar navbar-expand-lg bg-success text-capitalize sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand rounded-pill bg-warning p-2" href="#"
-          >Bassem Solutions</a
+        <a class="navbar-brand rounded-pill bg-warning p-2" href="#header"
+          >bassem solutions</a
         >
         <button
           class="navbar-toggler"
@@ -36,6 +36,29 @@
             <li class="nav-item">
               <a class="nav-link rounded-pill" href="#">Features</a>
             </li>
+            <!--start friendly websites -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle rounded-pill"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              friendly websites
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="https://bassem-todo-task.herokuapp.com/"  target="_blank">elzolhefa pharmacy</a></li>
+                <!-- <li><a class="dropdown-item" href="#nan">Nan</a></li>
+                <li><a class="dropdown-item" href="#vitamine">Vitamine</a></li>
+                <li><a class="dropdown-item" href="#cosmotic">Cosmotic</a></li> -->
+              </ul>
+            </li>
+            <!--END friendly websites -->
             <!--STARTCodes-->
             <li class="nav-item dropdown">
               <a
@@ -92,7 +115,7 @@
     </nav>
     <!-------------------------------------------------- navbar end --------------------------------------------------->
     <!--header start  -->
-    <div class="card text-center">
+    <div class="card text-center" id="header">
       <div class="card-header">under testing - تحت التجربة</div>
       <div class="card-body">
         <h1 class="card-title text-capitalize">codes</h1>
@@ -641,7 +664,7 @@
     </div>
     <!-- footer end -->
     <!-- sticky-bottom at bottom of veiw -->
-    <a href="#navBar" class="btn btn-success sticky-bottom">Nav bar</a>
+    <!-- <a href="#navBar" class="btn btn-success sticky-bottom">Nav bar</a> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
